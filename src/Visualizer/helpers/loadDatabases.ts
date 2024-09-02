@@ -1,4 +1,4 @@
-import { DatabaseConfigs } from "../types";
+import type { DatabaseConfigs } from "../types";
 import { loadDatabaseConfig } from "../helpers";
 import databases from "../../config/databases";
 

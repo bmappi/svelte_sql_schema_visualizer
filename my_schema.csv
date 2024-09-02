@@ -1,0 +1,54 @@
+"table_schema","table_name","column_name","data_type","ordinal_position"
+"public","departments","department_id","integer",1
+"public","departments","department_name","character varying",2
+"public","departments","organization_id","integer",3
+"public","departments","created_at","timestamp without time zone",4
+"public","departments","folder_id","integer",5
+"public","departments","deleted","boolean",6
+"public","departments_users","id","integer",1
+"public","departments_users","departments_department_id","integer",2
+"public","departments_users","users_user_id","integer",3
+"public","file_revisions","revision_id","integer",1
+"public","file_revisions","file_id","integer",2
+"public","file_revisions","revision_number","integer",3
+"public","file_revisions","content","jsonb",4
+"public","file_revisions","owner_id","integer",5
+"public","file_revisions","created_at","timestamp without time zone",6
+"public","file_revisions","original_created_at","timestamp without time zone",7
+"public","filesystem","file_id","integer",1
+"public","filesystem","name","character varying",2
+"public","filesystem","type","character varying",3
+"public","filesystem","parent_id","integer",4
+"public","filesystem","owner_id","integer",5
+"public","filesystem","created_at","timestamp without time zone",6
+"public","filesystem","updated_at","timestamp without time zone",7
+"public","filesystem","deleted","boolean",8
+"public","filesystem","content","jsonb",9
+"public","filesystem","path_ltree","USER-DEFINED",10
+"public","filesystem","item_flag","integer",11
+"public","organizations","organization_id","integer",1
+"public","organizations","organization_name","character varying",2
+"public","organizations","created_at","timestamp without time zone",3
+"public","organizations","folder_id","integer",4
+"public","organizations","deleted","boolean",5
+"public","shares","share_id","integer",1
+"public","shares","file_id","integer",2
+"public","shares","share_type","character varying",3
+"public","shares","organization_id","integer",4
+"public","shares","department_id","integer",5
+"public","shares","owner_id","integer",6
+"public","shares","created_at","timestamp without time zone",7
+"public","shares","updated_at","timestamp without time zone",8
+"public","shares","access_level","character varying",9
+"public","shares","deleted","boolean",10
+"public","user_department","user_id","integer",1
+"public","user_department","department_id","integer",2
+"public","user_organization","user_id","integer",1
+"public","user_organization","organization_id","integer",2
+"public","users","user_id","integer",1
+"public","users","user_source","character varying",2
+"public","users","username","character varying",3
+"public","users","full_name","character varying",4
+"public","users","created_at","timestamp without time zone",5
+"public","users","folder_id","integer",6
+"public","users","deleted","boolean",7

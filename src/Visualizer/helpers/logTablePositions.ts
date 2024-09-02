@@ -1,5 +1,5 @@
-import { Node } from "reactflow";
-import { TablePositions } from "../types";
+import type { Node } from "@xyflow/svelte";
+import type { TablePositions } from "../types";
 
 export const logTablePositions = (tableNodes: Node[]) => {
   const positions = {} as TablePositions;

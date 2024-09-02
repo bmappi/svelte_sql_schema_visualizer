@@ -1,8 +1,8 @@
-export * from "./EdgeConfig";
-export * from "./Position";
-export * from "./TablePositions";
-export * from "./SchemaColors";
-export * from "./PopupProps";
-export * from "./CloseIconProps";
-export * from "./TableConfig";
-export * from "./DatabaseConfig";
+export type * from "./EdgeConfig";
+export type * from "./Position";
+export type * from "./TablePositions";
+export type * from "./SchemaColors";
+export type * from "./PopupProps";
+export type * from "./CloseIconProps";
+export type * from "./TableConfig";
+export type * from "./DatabaseConfig";

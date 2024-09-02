@@ -2,8 +2,8 @@ import { edgeMarkerName } from "./edgeMarkerName";
 import { edgeClassName } from "./edgeClassName";
 import { calculateSourcePosition } from "./calculateSourcePosition";
 import { calculateTargetPosition } from "./calculateTargetPosition";
-import { Edge, Node } from "reactflow";
-import { DatabaseConfig, EdgeConfig } from "../types";
+import type { Edge, Node, EdgeProps } from "@xyflow/svelte";
+import type { DatabaseConfig, EdgeConfig } from "../types";
 
 interface CalculateEdgesOptions {
   nodes: Node[];
@@ -32,7 +32,7 @@ export const calculateEdges = ({ nodes, currentDatabase }: CalculateEdgesOptions
         targetHandle,
         type: "smoothstep",
         markerEnd: edgeMarkerName(edgeConfig, targetPosition),
-        className: edgeClassName(edgeConfig, targetPosition)
+        style: edgeClassName(edgeConfig, targetPosition)
       });
     }
   });

@@ -2,7 +2,7 @@ import twemoji from "twemoji";
 
 import MarkdownIt from "markdown-it";
 import Token from "markdown-it/lib/token";
-import markdownitEmoji from "markdown-it-emoji";
+// import markdownitEmoji from "markdown-it-emoji";
 
 const md = new MarkdownIt({
   html: true,
@@ -10,7 +10,7 @@ const md = new MarkdownIt({
   typographer: true
 });
 
-md.use(markdownitEmoji);
+// md.use(markdownitEmoji);
 
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore

@@ -1,4 +1,4 @@
-import { TableConfig } from "../../../Visualizer/types";
+import type { TableConfig } from "../../../visualizer/types";
 
 %TABLE_FILES%
 

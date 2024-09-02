@@ -1,5 +1,5 @@
 import { fullTableName } from "./fullTableName";
-import { DatabaseConfig, EdgeConfig, Position, TableConfig, TablePositions } from "../types";
+import type { DatabaseConfig, EdgeConfig, Position, TableConfig, TablePositions } from "../types";
 
 const setHandleType = (tableConfigs: TableConfig[], tableName: string, columnName: string, handleType: string) => {
   tableConfigs.forEach(tableConfig => {

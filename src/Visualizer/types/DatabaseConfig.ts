@@ -1,7 +1,7 @@
-import { EdgeConfig } from "./EdgeConfig";
-import { SchemaColors } from "./SchemaColors";
-import { TableConfig } from "./TableConfig";
-import { TablePositions } from "./TablePositions";
+import type { EdgeConfig } from "./EdgeConfig";
+import type { SchemaColors } from "./SchemaColors";
+import type { TableConfig } from "./TableConfig";
+import type { TablePositions } from "./TablePositions";
 
 export type Database = {
   name: string;
